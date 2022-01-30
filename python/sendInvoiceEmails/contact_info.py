@@ -17,6 +17,14 @@ clientList = {
         'billingAddress': '5440 Township Rd 618, Millersburg, OH 44654',
         'propertyAddress': '1020 S Conrad Ave, Sarasota, FL 34237'
     },
+    'jasonStoltzfus': {
+        'firstName': 'Jason',
+        'lastName': 'Stoltzfus',
+        'email': 'pennstateexpress@yahoo.com',
+        'phone': '7178602746',
+        'billingAddress': '15072 Lurgan Rd, Orrstown, PA 17244',
+        'propertyAddress': '926 Rhodes Ave, Sarasota, FL 34237'        
+    },
     'jesseMiller': {
         'firstName': 'Jesse',
         'lastName': 'Miller',
@@ -33,14 +41,6 @@ clientList = {
         'billingAddress': '7241 Township Rd 572, Millersburg, OH 44654',
         'propertyAddress': '1202 Oak View Dr, Sarasota, FL 34232'
     },
-    'leonTroyer': {
-        'firstName': 'Leon',
-        'lastName': 'Troyer',
-        'email': 'leon3433@yahoo.com',
-        'phone': '3304643433',
-        'billingAddress': '15258 Durstine Rd, Dundee, OH 44624',
-        'propertyAddress': '1202 Oak View Dr, Sarasota, FL 34232'
-    },
     'lavonYoder': {
         'firstName': 'Lavon',
         'lastName': 'Yoder',
@@ -48,6 +48,14 @@ clientList = {
         'phone': '5743044587',
         'billingAddress': '6035 W 600 N, Shipshewana, IN 46565',
         'propertyAddress': '229 E Cornelius Cir, Sarasota, FL 34232'
+    },
+    'leonTroyer': {
+        'firstName': 'Leon',
+        'lastName': 'Troyer',
+        'email': 'leon3433@yahoo.com',
+        'phone': '3304643433',
+        'billingAddress': '15258 Durstine Rd, Dundee, OH 44624',
+        'propertyAddress': '1202 Oak View Dr, Sarasota, FL 34232'
     },
     'lloydWittmer': {
         'firstName': 'Lloyd',
