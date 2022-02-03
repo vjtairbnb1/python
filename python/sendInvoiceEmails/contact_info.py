@@ -57,14 +57,6 @@ clientList = {
         'billingAddress': '15258 Durstine Rd, Dundee, OH 44624',
         'propertyAddress': '1202 Oak View Dr, Sarasota, FL 34232'
     },
-    'lloydWittmer': {
-        'firstName': 'Lloyd',
-        'lastName': 'Wittmer',
-        'email': None,
-        'phone': '8122592267',
-        'billingAddress': '10949 E 950 N, Odon, IN 47562',
-        'propertyAddress': '4198 Eastwood Dr, Sarasota, FL 34232'
-    },
     'scottYoder': {
         'firstName': 'Scott',
         'lastName': 'Yoder',

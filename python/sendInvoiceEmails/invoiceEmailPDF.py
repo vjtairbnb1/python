@@ -26,12 +26,12 @@ def sendEmail(receiverEmail, firstName, fileName):
         f"If you have any questions/concerns, please contact Vincent Troyer at vjt.airbnb@gmail.com or 941-725-0447. Thank you.\n"
         f"{starString}\n\n"
         f"Vincent Troyer\n"
-        f"BackDoor Solutions\n"
+        f"FrontDoor Solutions\n"
         f"vjt.airbnb@gmail.com || 941-725-0447")
 
     sender = "vjt.airbnb.billing@gmail.com"
     subject = f"Vincent Troyer -- {lastMonth} Invoice"
-    filePath = "C:/Users/vince/Documents/Code_Projects/Python/backdoor_solutions/sendInvoiceEmails/invoice_pdfs"
+    filePath = "C:/Users/vince/Documents/GitHub/front-door-solutions/functions/Python/sendInvoiceEmails/invoice_pdfs"
 
 
     # ------------ Build email ------------ #
@@ -40,8 +40,7 @@ def sendEmail(receiverEmail, firstName, fileName):
     # ------------ Send ------------ #
     email.email_send()
 
-
-# ------------ Test Send to Myself ------------ #
+# ------------ Verify Statements to Ask Permission ------------ #
 verify = input(f"🚨 You are about to send many emails. 🚨 Proceed? (y/n) ")
 
 if verify == "y" or verify == "Y":
@@ -61,21 +60,25 @@ else:
         else:
             continue
 
+# ------------ Test Send to Myself ------------ #
+
 sendEmail("vjt.airbnb@gmail.com", clientList["firmanMiller"]["firstName"], "fMiller")
+sendEmail("vjt.airbnb@gmail.com", clientList["jasonStoltzfus"]["firstName"], "jStoltzfus")
 sendEmail("vjt.airbnb@gmail.com", clientList["jesseMiller"]["firstName"], "jMiller")
 sendEmail("vjt.airbnb@gmail.com", clientList["lavonYoder"]["firstName"], "lYoder")
 sendEmail("vjt.airbnb@gmail.com", clientList["leonTroyer"]["firstName"], "lTroyer")
 sendEmail("vjt.airbnb@gmail.com", clientList["jonasHochstetler"]["firstName"], "lTroyer")
+sendEmail("vjt.airbnb@gmail.com", clientList["scottYoder"]["firstName"], "sYoder")
+
 
 # pending accounts
-# sendEmail("vjt.airbnb@gmail.com", clientList["lloydWittmer"]["firstName"], "lWittmer")
-# sendEmail("vjt.airbnb@gmail.com", clientList["scottYoder"]["firstName"], "sYoder")
+
 
 # ------------ Send Email List ------------ #
-sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
-sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
-sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
-sendEmail(clientList["leonTroyer"]["email"], clientList["leonTroyer"]["firstName"], "lTroyer")
-sendEmail(clientList["jonasHochstetler"]["email"], clientList["jonasHochstetler"]["firstName"], "lTroyer")
+# sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
+# sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
+# sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
+# sendEmail(clientList["leonTroyer"]["email"], clientList["leonTroyer"]["firstName"], "lTroyer")
+# sendEmail(clientList["jonasHochstetler"]["email"], clientList["jonasHochstetler"]["firstName"], "lTroyer")
 
-# ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE------------ 
+# ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE (sending january's invoice in february) ------------ 
