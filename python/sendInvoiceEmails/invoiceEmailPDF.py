@@ -63,7 +63,7 @@ else:
 # ------------ Test Send to Myself ------------ #
 
 sendEmail("vjt.airbnb@gmail.com", clientList["firmanMiller"]["firstName"], "fMiller")
-sendEmail("vjt.airbnb@gmail.com", clientList["jasonStoltzfus"]["firstName"], "jStoltzfus")
+sendEmail("vjt.airbnb@gmail.com", clientList["darylStoltzfus"]["firstName"], "jStoltzfus")
 sendEmail("vjt.airbnb@gmail.com", clientList["jesseMiller"]["firstName"], "jMiller")
 sendEmail("vjt.airbnb@gmail.com", clientList["lavonYoder"]["firstName"], "lYoder")
 sendEmail("vjt.airbnb@gmail.com", clientList["leonTroyer"]["firstName"], "lTroyer")
@@ -75,10 +75,12 @@ sendEmail("vjt.airbnb@gmail.com", clientList["scottYoder"]["firstName"], "sYoder
 
 
 # ------------ Send Email List ------------ #
-# sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
-# sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
-# sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
-# sendEmail(clientList["leonTroyer"]["email"], clientList["leonTroyer"]["firstName"], "lTroyer")
-# sendEmail(clientList["jonasHochstetler"]["email"], clientList["jonasHochstetler"]["firstName"], "lTroyer")
+sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
+sendEmail(clientList["darylStoltzfus"]["email"], clientList["darylStoltzfus"]["firstName"], "jStoltzfus")
+sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
+sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
+sendEmail(clientList["leonTroyer"]["email"], clientList["leonTroyer"]["firstName"], "lTroyer")
+sendEmail(clientList["jonasHochstetler"]["email"], clientList["jonasHochstetler"]["firstName"], "lTroyer")
+sendEmail(clientList["scottYoder"]["email"], clientList["scottYoder"]["firstName"], "sYoder")
 
 # ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE (sending january's invoice in february) ------------ 

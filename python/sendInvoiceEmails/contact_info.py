@@ -17,11 +17,11 @@ clientList = {
         'billingAddress': '5440 Township Rd 618, Millersburg, OH 44654',
         'propertyAddress': '1020 S Conrad Ave, Sarasota, FL 34237'
     },
-    'jasonStoltzfus': {
-        'firstName': 'Jason',
+    'darylStoltzfus': {
+        'firstName': 'Daryl',
         'lastName': 'Stoltzfus',
-        'email': 'pennstateexpress@yahoo.com',
-        'phone': '7178602746',
+        'email': 'daryl1969@yahoo.com',
+        'phone': '7173721822',
         'billingAddress': '15072 Lurgan Rd, Orrstown, PA 17244',
         'propertyAddress': '926 Rhodes Ave, Sarasota, FL 34237'        
     },
