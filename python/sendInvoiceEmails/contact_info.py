@@ -9,14 +9,6 @@ myContactInfo = {
 }
 
 clientList = {
-    'firmanMiller': {
-        'firstName': 'Firman',
-        'lastName': 'Miller',
-        'email': 'cf2@emyprinter.net',
-        'phone': '3306744505',
-        'billingAddress': '5440 Township Rd 618, Millersburg, OH 44654',
-        'propertyAddress': '1020 S Conrad Ave, Sarasota, FL 34237'
-    },
     'darylStoltzfus': {
         'firstName': 'Daryl',
         'lastName': 'Stoltzfus',
@@ -24,6 +16,14 @@ clientList = {
         'phone': '7173721822',
         'billingAddress': '15072 Lurgan Rd, Orrstown, PA 17244',
         'propertyAddress': '926 Rhodes Ave, Sarasota, FL 34237'        
+    },
+    'firmanMiller': {
+        'firstName': 'Firman',
+        'lastName': 'Miller',
+        'email': 'cf2@emyprinter.net',
+        'phone': '3306744505',
+        'billingAddress': '5440 Township Rd 618, Millersburg, OH 44654',
+        'propertyAddress': '1020 S Conrad Ave, Sarasota, FL 34237'
     },
     'jesseMiller': {
         'firstName': 'Jesse',
@@ -41,6 +41,14 @@ clientList = {
         'billingAddress': '7241 Township Rd 572, Millersburg, OH 44654',
         'propertyAddress': '1202 Oak View Dr, Sarasota, FL 34232'
     },
+    'kateYoder': {
+        'firstName': None,
+        'lastName': None,
+        'email': None,
+        'phone': None,
+        'billingAddress': None,
+        'propertyAddress': None
+    },
     'lavonYoder': {
         'firstName': 'Lavon',
         'lastName': 'Yoder',
@@ -48,6 +56,14 @@ clientList = {
         'phone': '5743044587',
         'billingAddress': '6035 W 600 N, Shipshewana, IN 46565',
         'propertyAddress': '229 E Cornelius Cir, Sarasota, FL 34232'
+    },
+    'leahBontrager': {
+        'firstName': 'Leah',
+        'lastName': 'Bontrager',
+        'email': 'warrenridge22@gmail.com',
+        'phone': '2696255530',
+        'billingAddress': '1165 Mendon Rd, Sherwood, MI 49089',
+        'propertyAddress': '3727 Warren Ridge St, Sarasota, FL 34233'        
     },
     'leonTroyer': {
         'firstName': 'Leon',
