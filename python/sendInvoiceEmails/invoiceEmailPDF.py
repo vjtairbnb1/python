@@ -11,7 +11,7 @@ senderPass = getpass.getpass()
 
 today = datetime.date.today()
 first = today.replace(day=1)
-lastMonth = (first - datetime.timedelta(days=1)).strftime("%B")
+lastMonth = (first - datetime.timedelta(days=25)).strftime("%B")
 
 
 # ------------ Build sendEmail fn() w/ email information ------------ #
@@ -63,24 +63,23 @@ else:
 # ------------ Test Send to Myself ------------ #
 
 sendEmail("vjt.airbnb@gmail.com", clientList["firmanMiller"]["firstName"], "fMiller")
-sendEmail("vjt.airbnb@gmail.com", clientList["darylStoltzfus"]["firstName"], "jStoltzfus")
-sendEmail("vjt.airbnb@gmail.com", clientList["jesseMiller"]["firstName"], "jMiller")
+# sendEmail("vjt.airbnb@gmail.com", clientList["darylStoltzfus"]["firstName"], "jStoltzfus")
+# sendEmail("vjt.airbnb@gmail.com", clientList["jesseMiller"]["firstName"], "jMiller")
 sendEmail("vjt.airbnb@gmail.com", clientList["lavonYoder"]["firstName"], "lYoder")
-sendEmail("vjt.airbnb@gmail.com", clientList["leonTroyer"]["firstName"], "lTroyer")
-sendEmail("vjt.airbnb@gmail.com", clientList["jonasHochstetler"]["firstName"], "lTroyer")
+# sendEmail("vjt.airbnb@gmail.com", clientList["leonTroyer"]["firstName"], "lTroyer")
+# sendEmail("vjt.airbnb@gmail.com", clientList["jonasHochstetler"]["firstName"], "lTroyer")
 sendEmail("vjt.airbnb@gmail.com", clientList["scottYoder"]["firstName"], "sYoder")
-
-
-# pending accounts
+sendEmail("vjt.airbnb@gmail.com", clientList["leahBontrager"]["firstName"], "lBontrager")
 
 
 # ------------ Send Email List ------------ #
 sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
-sendEmail(clientList["darylStoltzfus"]["email"], clientList["darylStoltzfus"]["firstName"], "jStoltzfus")
-sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
+# sendEmail(clientList["darylStoltzfus"]["email"], clientList["darylStoltzfus"]["firstName"], "jStoltzfus")
+# sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
 sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
-sendEmail(clientList["leonTroyer"]["email"], clientList["leonTroyer"]["firstName"], "lTroyer")
-sendEmail(clientList["jonasHochstetler"]["email"], clientList["jonasHochstetler"]["firstName"], "lTroyer")
+# sendEmail(clientList["leonTroyer"]["email"], clientList["leonTroyer"]["firstName"], "lTroyer")
+# sendEmail(clientList["jonasHochstetler"]["email"], clientList["jonasHochstetler"]["firstName"], "lTroyer")
 sendEmail(clientList["scottYoder"]["email"], clientList["scottYoder"]["firstName"], "sYoder")
+sendEmail(clientList["leahBontrager"]["email"], clientList["leahBontrager"]["firstName"], "lBontrager")
 
-# ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE (sending january's invoice in february) ------------ 
+# ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE (sending january's invoice in february) ------------
