@@ -3,7 +3,7 @@ from pdf_mail import sendpdf
 from datetime import datetime
 import datetime
 import getpass
-from contact_info import myContactInfo, clientList
+from contact_info import clientList
 
 
 # ------------ Build variables ------------ #
@@ -61,25 +61,31 @@ else:
             continue
 
 # ------------ Test Send to Myself ------------ #
-
-sendEmail("vjt.airbnb@gmail.com", clientList["firmanMiller"]["firstName"], "fMiller")
-# sendEmail("vjt.airbnb@gmail.com", clientList["darylStoltzfus"]["firstName"], "jStoltzfus")
-# sendEmail("vjt.airbnb@gmail.com", clientList["jesseMiller"]["firstName"], "jMiller")
-sendEmail("vjt.airbnb@gmail.com", clientList["lavonYoder"]["firstName"], "lYoder")
-# sendEmail("vjt.airbnb@gmail.com", clientList["leonTroyer"]["firstName"], "lTroyer")
-# sendEmail("vjt.airbnb@gmail.com", clientList["jonasHochstetler"]["firstName"], "lTroyer")
-sendEmail("vjt.airbnb@gmail.com", clientList["scottYoder"]["firstName"], "sYoder")
-sendEmail("vjt.airbnb@gmail.com", clientList["leahBontrager"]["firstName"], "lBontrager")
-
+try:
+    sendEmail("vjt.airbnb@gmail.com", clientList["firmanMiller"]["firstName"], "fMiller")
+    sendEmail("vjt.airbnb@gmail.com", clientList["darylStoltzfus"]["firstName"], "dStoltzfus")
+    sendEmail("vjt.airbnb@gmail.com", clientList["jesseMiller"]["firstName"], "jMiller")
+    # sendEmail("vjt.airbnb@gmail.com", clientList["lavonYoder"]["firstName"], "lYoder")
+    sendEmail("vjt.airbnb@gmail.com", clientList["leonTroyer"]["firstName"], "lTroyer")
+    sendEmail("vjt.airbnb@gmail.com", clientList["jonasHochstetler"]["firstName"], "lTroyer")
+    sendEmail("vjt.airbnb@gmail.com", clientList["scottYoder"]["firstName"], "sYoder")
+    sendEmail("vjt.airbnb@gmail.com", clientList["leahBontrager"]["firstName"], "lBontrager")
+    sendEmail("vjt.airbnb@gmail.com", clientList["kateYoder"]["firstName"], "kYoder")
+except:
+    print("Something went wrong when sending test emails...")
 
 # ------------ Send Email List ------------ #
-sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
-# sendEmail(clientList["darylStoltzfus"]["email"], clientList["darylStoltzfus"]["firstName"], "jStoltzfus")
-# sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
-sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
-# sendEmail(clientList["leonTroyer"]["email"], clientList["leonTroyer"]["firstName"], "lTroyer")
-# sendEmail(clientList["jonasHochstetler"]["email"], clientList["jonasHochstetler"]["firstName"], "lTroyer")
-sendEmail(clientList["scottYoder"]["email"], clientList["scottYoder"]["firstName"], "sYoder")
-sendEmail(clientList["leahBontrager"]["email"], clientList["leahBontrager"]["firstName"], "lBontrager")
+try:
+    sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
+    sendEmail(clientList["darylStoltzfus"]["email"], clientList["darylStoltzfus"]["firstName"], "dStoltzfus")
+    sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
+    # sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
+    sendEmail(clientList["leonTroyer"]["email"], clientList["leonTroyer"]["firstName"], "lTroyer")
+    sendEmail(clientList["jonasHochstetler"]["email"], clientList["jonasHochstetler"]["firstName"], "lTroyer")
+    sendEmail(clientList["scottYoder"]["email"], clientList["scottYoder"]["firstName"], "sYoder")
+    sendEmail(clientList["leahBontrager"]["email"], clientList["leahBontrager"]["firstName"], "lBontrager")
+    sendEmail(clientList["kateYoder"]["email"], clientList["kateYoder"]["firstName"], "kYoder")
+except:
+    print("Something went wrong when sending emails to clients...")
 
-# ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE (sending january's invoice in february) ------------
+# ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE (ex: January's invoice will be sent in February) ------------

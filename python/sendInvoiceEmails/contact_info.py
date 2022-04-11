@@ -42,12 +42,12 @@ clientList = {
         'propertyAddress': '1202 Oak View Dr, Sarasota, FL 34232'
     },
     'kateYoder': {
-        'firstName': None,
-        'lastName': None,
-        'email': None,
-        'phone': None,
-        'billingAddress': None,
-        'propertyAddress': None
+        'firstName': 'Kate',
+        'lastName': 'Yoder',
+        'email': "1yodergirl@gmail.com",
+        'phone': '2693394530',
+        'billingAddress': '806 Ponder Ave, Sarasota, FL 34232',
+        'propertyAddress': '5071 Houle Pl, Sarasota, FL 34232'
     },
     'lavonYoder': {
         'firstName': 'Lavon',
