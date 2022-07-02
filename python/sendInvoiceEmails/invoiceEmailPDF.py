@@ -71,12 +71,12 @@ else:
 
 
 # ------------ Send Email List ------------ #
-sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
-sendEmail(clientList["darylStoltzfus"]["email"], clientList["darylStoltzfus"]["firstName"], "dStoltzfus")
-sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
-# sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
-sendEmail(clientList["scottYoder"]["email"], clientList["scottYoder"]["firstName"], "sYoder")
 sendEmail(clientList["leahBontrager"]["email"], clientList["leahBontrager"]["firstName"], "lBontrager")
+# sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
+sendEmail(clientList["darylStoltzfus"]["email"], clientList["darylStoltzfus"]["firstName"], "dStoltzfus")
+sendEmail(clientList["scottYoder"]["email"], clientList["scottYoder"]["firstName"], "sYoder")
 sendEmail(clientList["kateYoder"]["email"], clientList["kateYoder"]["firstName"], "kYoder")
+sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
+sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
 
 # ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE (ex: January's invoice will be sent in February) ------------

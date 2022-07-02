@@ -76,7 +76,7 @@ clientList = {
     'scottYoder': {
         'firstName': 'Scott',
         'lastName': 'Yoder',
-        'email': 'scottyoder30@gmail.com',
+        'email': 'coastaltrees21@gmail.com',
         'phone': '2698326643',
         'billingAddress': '806 Ponder Ave, Sarasota, FL 34232',
         'propertyAddress': '5150 Island Date St, Sarasota, FL 34232'
