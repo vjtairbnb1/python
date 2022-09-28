@@ -3,6 +3,7 @@ myContactInfo = {
         'firstName': 'Vincent',
         'lastName': 'Troyer',
         'email': 'vjt.airbnb@gmail.com',
+        'billingEmail': 'vjt.airbnb.billing@gmail.com',
         'phone': '9417250447',
         'address': '2212 Vintage St, Sarasota, FL 34240'
     }
