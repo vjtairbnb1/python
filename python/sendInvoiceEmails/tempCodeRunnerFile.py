@@ -1,7 +1,1 @@
-sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
-sendEmail(clientList["darylStoltzfus"]["email"], clientList["darylStoltzfus"]["firstName"], "dStoltzfus")
-sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
-# sendEmail(clientList["lavonYoder"]["email"], clientList["lavonYoder"]["firstName"], "lYoder")
-sendEmail(clientList["scottYoder"]["email"], clientList["scottYoder"]["firstName"], "sYoder")
-sendEmail(clientList["leahBontrager"]["email"], clientList["leahBontrager"]["firstName"], "lBontrager")
-sendEmail(clientList["kateYoder"]["email"], clientList["kateYoder"]["firstName"], "kYoder")
+sendEmail("vjt.airbnb@gmail.com", clientList["firmanMiller"]["firstName"], "fMiller")
