@@ -64,7 +64,7 @@ else:
 # sendEmail("vjt.airbnb@gmail.com", clientList["scottYoder"]["firstName"], "sYoder")
 # sendEmail("vjt.airbnb@gmail.com", clientList["kateYoder"]["firstName"], "kYoder")
 # sendEmail("vjt.airbnb@gmail.com", clientList["jesseMiller"]["firstName"], "jMiller")
-sendEmail("vjt.airbnb@gmail.com", clientList["firmanMiller"]["firstName"], "fMiller")
+# sendEmail("vjt.airbnb@gmail.com", clientList["firmanMiller"]["firstName"], "fMiller")
 
 
 # ------------ Send Email List ------------ #
@@ -76,4 +76,4 @@ sendEmail(clientList["kateYoder"]["email"], clientList["kateYoder"]["firstName"]
 sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
 sendEmail(clientList["firmanMiller"]["email"], clientList["firmanMiller"]["firstName"], "fMiller")
 
-# ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE (ex: It is the month of February. Your body will ) ------------
+# ------------ REMEMBER THAT THE MONTH IN THE EMAIL IS THE PREVIOUS MONTH RELATIVE TO THE CURRENT DATE (ex: It is the month of February. Your email will include Jan invoice ) ------------
