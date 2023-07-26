@@ -1,2 +1,7 @@
-
-sendEmail(clientList["jesseMiller"]["email"], clientList["jesseMiller"]["firstName"], "jMiller")
+sendEmail("vjt.airbnb@gmail.com", clientList["leahBontrager"]["firstName"], clientList["leahBontrager"]['filePath'], f"lBontrager {lastMonth} {currentYear}")
+# sendEmail("vjt.airbnb@gmail.com", clientList["lavonYoder"]["firstName"], clientList["lavonYoder"]['filePath'], f"lYoder {lastMonth} {currentYear}")
+# sendEmail("vjt.airbnb@gmail.com", clientList["darylStoltzfus"]["firstName"], clientList["darylStoltzfus"]['filePath'], f"dStoltzfus {lastMonth} {currentYear}")
+# sendEmail("vjt.airbnb@gmail.com", clientList["scottYoder"]["firstName"], clientList["scottYoder"]['filePath'], f"sYoder {lastMonth} {currentYear}")
+# sendEmail("vjt.airbnb@gmail.com", clientList["kateYoder"]["firstName"], clientList["kateYoder"]['filePath'], f"kYoder {lastMonth} {currentYear}")
+# sendEmail("vjt.airbnb@gmail.com", clientList["leonTroyer"]["firstName"], clientList["leonTroyer"]['filePath'], f"lTroyer {lastMonth} {currentYear}")
+# sendEmail("vjt.airbnb@gmail.com", clientList["jesseMiller"]["firstName"], clientList["jesseMiller"]['filePath'], f"jMiller {lastMonth} {currentYear}")
